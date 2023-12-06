@@ -123,7 +123,7 @@ alias history='history -E 0' # print whole(0) history with time stamps(-E)
 # EXPORT'S
 #######################################################
 # Chrome executable for flutter SDK:
-export CHROME_EXECUTABLE=/usr/bin/brave-browser
+export CHROME_EXECUTABLE=/usr/bin/brave
 
 
 #######################################################
