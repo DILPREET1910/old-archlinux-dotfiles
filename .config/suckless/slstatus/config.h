@@ -69,6 +69,8 @@ static const struct arg args[] = {
 	{cpu_perc,"   [ CPU:%s%% ]",NULL},
 	{ram_used,"   [ RAM:%s/",NULL},
 	{ram_total,"%s ]",NULL},
+	{disk_used,"   [ DISK:%s/","/home"},
+	{disk_total,"%s ]","/home"},
 	{run_command,"   [ VOL:%s ]","awk -F\"[][]\" '/Left:/ { print $2 }' <(amixer sget Master)"},
 	{battery_perc,"   [ BAT:%s%% ","BAT0"},
 	{battery_state,"%s ]","BAT0"},
