@@ -1,0 +1,15 @@
+# ignore everthing
+/*
+
+# except these
+!.gitignore
+
+!/.config
+/.config/*
+
+!/.config/autorandr
+!/.config/nvim
+!/.config/suckless
+!/.config/sxhkd
+!/.config/tmux
+!/.config/zsh

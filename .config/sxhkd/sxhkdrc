@@ -1,0 +1,25 @@
+# volume controls
+XF86AudioLowerVolume 
+	amixer --quiet set Master 5%-
+XF86AudioRaiseVolume 
+	amixer --quiet set Master 5%+
+XF86AudioMute 
+	amixer --quiet set Master toggle
+XF86AudioPlay 
+	playerctl play-pause
+XF86AudioPause
+	playerctl play-pause
+alt + o
+	playerctl play-pause
+XF86AudioNext
+	playerctl next
+XF86AudioPrev
+	playerctl previous
+
+# slock
+super + l
+	slock
+
+# clip menu
+super +v 
+	clipmenu
