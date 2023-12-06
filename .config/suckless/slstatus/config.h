@@ -67,6 +67,8 @@ static const struct arg args[] = {
 	/* function format          argument */
 	{ datetime, "[ %s ]",           "%a, %d %b %r" },
 	{cpu_perc,"   [ CPU:%s%% ]",NULL},
+	{ram_used,"   [ RAM:%s/",NULL},
+	{ram_total,"%s ]",NULL},
 	{run_command,"   [ VOL:%s ]","awk -F\"[][]\" '/Left:/ { print $2 }' <(amixer sget Master)"},
 	{battery_perc,"   [ BAT:%s%% ","BAT0"},
 	{battery_state,"%s ]","BAT0"},
