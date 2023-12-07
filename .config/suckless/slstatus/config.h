@@ -72,6 +72,7 @@ static const struct arg args[] = {
 	{disk_used,"   [ DISK:%s/","/home"},
 	{disk_total,"%s ]","/home"},
 	{run_command,"   [ VOL:%s ]","awk -F\"[][]\" '/Left:/ { print $2 }' <(amixer sget Master)"},
+	{run_command,"   [ MIC:%s ]","awk -F\"[][]\" '/Left:/ { print $4 }' <(amixer sget Capture)"},
 	{battery_perc,"   [ BAT:%s%% ","BAT0"},
 	{battery_state,"%s ]","BAT0"},
 };
