@@ -107,16 +107,11 @@ alias ungz='tar -xvzf'
 alias unrar='rar x'
 
 # alias's to modify commands:
-alias terminal='gnome-terminal'
-alias Terminal='gnome-terminal && exit'
-alias bashrc='vim ~/.bashrc'
-alias vim='nvim.appimage'
 alias clr='clear'
 alias h="history | grep "
 alias decryptBase64='base64 -d | base64 -d | base64 -d' # it is basically for nebula pirated discord server's decryption of download links
 alias get='aria2c -x 6 -s 6'
-alias notify-send='notify-send -u critical '
-alias python='python3.10'
+alias python='python3.11'
 alias history='history -E 0' # print whole(0) history with time stamps(-E)
 
 #######################################################
