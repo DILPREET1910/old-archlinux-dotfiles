@@ -16,6 +16,10 @@ XF86AudioNext
 XF86AudioPrev
 	playerctl previous
 
+# microphone controls
+XF86Launch5
+	amixer --quiet set Capture toggle
+
 # slock
 super + l
 	slock
