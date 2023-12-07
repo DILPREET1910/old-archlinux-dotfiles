@@ -1,2 +1,2 @@
 local builtin = require('telescope.builtin')
-vim.keymap.set('n','<leader>pf',builtin.find_files,{}) -- find in project files
+vim.keymap.set('n','<leader>ff',builtin.find_files,{}) -- find files in project files
