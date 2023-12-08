@@ -3,6 +3,9 @@ require('mason-lspconfig').setup({
 	ensure_installed = {'lua_ls'}
 })
 
+--#########################################
+-- Define Functions and Variables here
+--#########################################
 local on_attach = function(_,_)
 	vim.keymap.set('n','<leader>rn',vim.lsp.buf.rename,{}) -- rename variables in current buffer
 	vim.keymap.set('n','<leader>ca',vim.lsp.buf.code_action, {}) -- code action
@@ -11,9 +14,15 @@ local on_attach = function(_,_)
 	vim.keymap.set('n','K',vim.lsp.buf.hover,{}) -- documentation
 end
 
+local capabilites = require('cmp_nvim_lsp').default_capabilities()
+
+--#########################################
+-- Require LSPs here
+--#########################################
 -- lua
 require('lspconfig').lua_ls.setup{
 	on_attach = on_attach,
+  capabilities = capabilites,
 	settings={
 		Lua = {
 			diagnostics = {
@@ -26,10 +35,12 @@ require('lspconfig').lua_ls.setup{
 -- dart flutter [inbuild lsp that comes with dart (no need to install it with mason)]
 require('lspconfig').dartls.setup{
 	on_attach = on_attach,
+  capabilities = capabilites,
 	cmd={'/opt/flutter/bin/dart','language-server','--protocol=lsp'},
 }
 
 -- json lsp (jsonls)
 require('lspconfig').jsonls.setup{
 	on_attach = on_attach,
+  capabilities = capabilites,
 }
