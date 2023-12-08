@@ -22,8 +22,14 @@ require('lspconfig').lua_ls.setup{
 		}
 	}
 }
+
 -- dart flutter [inbuild lsp that comes with dart (no need to install it with mason)]
 require('lspconfig').dartls.setup{
 	on_attach = on_attach,
 	cmd={'/opt/flutter/bin/dart','language-server','--protocol=lsp'},
+}
+
+-- json lsp (jsonls)
+require('lspconfig').dartls.setup{
+	on_attach = on_attach,
 }
