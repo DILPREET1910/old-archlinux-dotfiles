@@ -63,4 +63,9 @@ return require('packer').startup(function(use)
     'rafamadriz/friendly-snippets',
   }
 
+  -- git
+  use {
+    'tpope/vim-fugitive'
+  }
+
 end)
