@@ -14,6 +14,13 @@ end
 -- lua
 require('lspconfig').lua_ls.setup{
 	on_attach = on_attach,
+	settings={
+		Lua = {
+			diagnostics = {
+				globals = {'vim'}
+			}
+		}
+	}
 }
 -- dart flutter [inbuild lsp that comes with dart (no need to install it with mason)]
 require('lspconfig').dartls.setup{
