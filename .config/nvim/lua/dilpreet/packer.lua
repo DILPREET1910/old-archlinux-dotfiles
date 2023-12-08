@@ -30,4 +30,10 @@ return require('packer').startup(function(use)
 	  'williamboman/mason-lspconfig.nvim', -- bridges mason and nvim lspconfig
 	  'neovim/nvim-lspconfig', -- lsp configuration
   }
+
+  -- file tree
+  use {
+    'nvim-tree/nvim-tree.lua',
+    'nvim-tree/nvim-web-devicons',
+  }
 end)
