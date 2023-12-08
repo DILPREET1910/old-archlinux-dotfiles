@@ -7,14 +7,14 @@ return require('packer').startup(function(use)
 
   -- telescope
   use {
-	  'nvim-telescope/telescope.nvim', 
+	  'nvim-telescope/telescope.nvim',
 	  tag = '0.1.5',
 	  requires = { {'nvim-lua/plenary.nvim'} }
   }
 
   -- catppuccin color scheme
-  use { 
-	  "catppuccin/nvim", 
+  use {
+	  "catppuccin/nvim",
 	  as = "catppuccin",
   }
 
@@ -35,5 +35,11 @@ return require('packer').startup(function(use)
   use {
     'nvim-tree/nvim-tree.lua',
     'nvim-tree/nvim-web-devicons',
+  }
+
+  -- packer
+  use {
+    'nvim-lualine/lualine.nvim',
+    requires = { 'nvim-tree/nvim-web-devicons', opt = true }
   }
 end)
