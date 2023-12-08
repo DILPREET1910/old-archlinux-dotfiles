@@ -30,6 +30,6 @@ require('lspconfig').dartls.setup{
 }
 
 -- json lsp (jsonls)
-require('lspconfig').dartls.setup{
+require('lspconfig').jsonls.setup{
 	on_attach = on_attach,
 }
