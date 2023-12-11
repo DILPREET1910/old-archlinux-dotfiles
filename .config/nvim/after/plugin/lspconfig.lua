@@ -62,3 +62,13 @@ require('lspconfig').tailwindcss.setup{
 	on_attach = on_attach,
   capabilities = capabilites,
 }
+
+-- javascript typescirpt (eslint and tsserver)
+require('lspconfig').eslint.setup{
+	on_attach = on_attach,
+  capabilities = capabilites,
+}
+require('lspconfig').tsserver.setup{
+	on_attach = on_attach,
+  capabilities = capabilites,
+}
