@@ -79,4 +79,9 @@ return require('packer').startup(function(use)
     'norcalli/nvim-colorizer.lua',
   }
 
+  -- toggle term (terminal in nvim)
+  use {
+    'akinsho/toggleterm.nvim',
+  }
+
 end)
