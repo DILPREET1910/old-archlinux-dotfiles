@@ -50,3 +50,9 @@ require('lspconfig').jdtls.setup{
 	on_attach = on_attach,
   capabilities = capabilites,
 }
+
+-- html
+require('lspconfig').html.setup{
+	on_attach = on_attach,
+  capabilities = capabilites,
+}
