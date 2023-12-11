@@ -74,4 +74,9 @@ return require('packer').startup(function(use)
     'wakatime/vim-wakatime',
   }
 
+  -- vim colorizer
+  use {
+    'norcalli/nvim-colorizer.lua',
+  }
+
 end)
