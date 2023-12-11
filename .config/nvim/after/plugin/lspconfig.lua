@@ -44,3 +44,9 @@ require('lspconfig').jsonls.setup{
 	on_attach = on_attach,
   capabilities = capabilites,
 }
+
+-- java lsp (jdtls)
+require('lspconfig').jdtls.setup{
+	on_attach = on_attach,
+  capabilities = capabilites,
+}
