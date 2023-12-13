@@ -1,3 +1,6 @@
+# default mic to off on start up
+amixer --quiet set Captuer nocap
+
 # auorandr for hdmi port
 autorandr &
 autorandr --change
