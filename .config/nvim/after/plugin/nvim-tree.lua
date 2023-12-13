@@ -6,6 +6,9 @@ require('nvim-tree').setup({
     open_file = {
       quit_on_open = true, -- quite after opening file
     }
+  },
+  git = {
+    ignore = false;
   }
 })
 
