@@ -84,4 +84,11 @@ return require('packer').startup(function(use)
     'akinsho/toggleterm.nvim',
   }
 
+  -- harpoon
+  use {
+    "ThePrimeagen/harpoon",
+    branch = "harpoon2",
+    requires = { {"nvim-lua/plenary.nvim"} }
+  }
+
 end)
