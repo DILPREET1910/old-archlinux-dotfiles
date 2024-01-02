@@ -139,3 +139,9 @@ source /home/dilpreet/.config/zsh/plugins/wakatime-zsh-plugin/wakatime.plugin.zs
 source /home/dilpreet/.config/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh # syntax highlighting; *should be at the last line of .zshrc*
 source /home/dilpreet/.config/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh # autosuggestions
 export PATH=$PATH:/home/dilpreet/.spicetify
+
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f '/opt/google-cloud-sdk/path.zsh.inc' ]; then . '/opt/google-cloud-sdk/path.zsh.inc'; fi
+
+# The next line enables shell command completion for gcloud.
+if [ -f '/opt/google-cloud-sdk/completion.zsh.inc' ]; then . '/opt/google-cloud-sdk/completion.zsh.inc'; fi
