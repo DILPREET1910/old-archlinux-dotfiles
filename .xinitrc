@@ -8,7 +8,10 @@ autorandr --change
 # deamons
 dunst & # notification deamon
 clipmenud & # clipboard deamon
-gnome-keyring-daemon --start --components=pkcs11,secrets # gnome keyring
+
+# gnome keyring
+gnome-keyring-daemon --start --components=pkcs11,secrets
+export SSH_AUTH_SOCK
 
 # mount onedrive
 rclone mount --vfs-cache-mode full onedrive: /home/dilpreet/onedrive &
