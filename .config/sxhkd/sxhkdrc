@@ -27,3 +27,7 @@ super + l
 # clip menu
 super +v 
 	clipmenu
+
+# gnome screenshot
+Print
+  gnome-screenshot --interactive
