@@ -8,6 +8,7 @@ autorandr --change
 # deamons
 dunst & # notification deamon
 clipmenud & # clipboard deamon
+gnome-keyring-daemon --start --components=pkcs11,secrets # gnome keyring
 
 # sxhkd hotkeys manager
 sxhkd &
