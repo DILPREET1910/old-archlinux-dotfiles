@@ -10,6 +10,9 @@ dunst & # notification deamon
 clipmenud & # clipboard deamon
 gnome-keyring-daemon --start --components=pkcs11,secrets # gnome keyring
 
+# mount onedrive
+rclone mount --vfs-cache-mode full onedrive: /home/dilpreet/onedrive &
+
 # sxhkd hotkeys manager
 sxhkd &
 
