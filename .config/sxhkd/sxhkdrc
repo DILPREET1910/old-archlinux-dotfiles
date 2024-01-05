@@ -31,3 +31,9 @@ super +v
 # gnome screenshot
 Print
   gnome-screenshot --interactive
+
+# brave
+super + w
+  brave
+super + W
+  brave --incognito
