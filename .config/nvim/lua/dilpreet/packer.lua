@@ -92,4 +92,9 @@ return require('packer').startup(function(use)
     requires = { {"nvim-lua/plenary.nvim"} }
   }
 
+  -- none ls
+  use {
+    'nvimtools/none-ls.nvim',
+  }
+
 end)
