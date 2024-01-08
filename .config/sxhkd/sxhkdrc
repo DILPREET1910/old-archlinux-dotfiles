@@ -37,3 +37,7 @@ super + w
   brave
 super + W
   brave --incognito
+
+# mailspring
+alt + G
+  mailspring --password-store="gnome-libsecret"
