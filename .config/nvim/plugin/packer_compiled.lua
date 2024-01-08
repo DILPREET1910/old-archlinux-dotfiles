@@ -79,6 +79,11 @@ _G.packer_plugins = {
     path = "/home/dilpreet/.local/share/nvim/site/pack/packer/start/LuaSnip",
     url = "https://github.com/L3MON4D3/LuaSnip"
   },
+  ["alpha-nvim"] = {
+    loaded = true,
+    path = "/home/dilpreet/.local/share/nvim/site/pack/packer/start/alpha-nvim",
+    url = "https://github.com/goolord/alpha-nvim"
+  },
   catppuccin = {
     loaded = true,
     path = "/home/dilpreet/.local/share/nvim/site/pack/packer/start/catppuccin",
