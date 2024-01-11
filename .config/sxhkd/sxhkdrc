@@ -41,3 +41,11 @@ super + W
 # mailspring
 alt + G
   mailspring --password-store="gnome-libsecret"
+
+# map page up, down, home of numpad to zoom in, out and reset in st
+ctrl + shift + KP_Prior
+  xdotool keyup KP_Prior && xdotool key Prior
+ctrl + shift + KP_Next
+  xdotool keyup KP_Next && xdotool key Next
+ctrl + shift + KP_Home
+  xdotool keyup KP_Home && xdotool key Home
