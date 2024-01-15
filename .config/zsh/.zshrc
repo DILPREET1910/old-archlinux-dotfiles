@@ -138,5 +138,10 @@ fi
 source /home/dilpreet/.config/zsh/plugins/wakatime-zsh-plugin/wakatime.plugin.zsh
 source /home/dilpreet/.config/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh # syntax highlighting; *should be at the last line of .zshrc*
 source /home/dilpreet/.config/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh # autosuggestions
-export PATH=$PATH:/home/dilpreet/.spicetify
-export PATH=$PATH:/usr/lib/rstudio
+
+#######################################################
+# PATH:
+#######################################################
+export PATH=$PATH:/home/dilpreet/.spicetify # spicetify
+export PATH=$PATH:/usr/lib/rstudio # rstudio
+export PATH=$PATH:/home/dilpreet/.pub-cache/bin/ # flutter fire
