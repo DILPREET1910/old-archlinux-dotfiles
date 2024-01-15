@@ -101,4 +101,9 @@ return require("packer").startup(function(use)
 	use({
 		"goolord/alpha-nvim",
 	})
+
+  -- nvim tmux navigator
+  use({
+    'christoomey/vim-tmux-navigator'
+  })
 end)
