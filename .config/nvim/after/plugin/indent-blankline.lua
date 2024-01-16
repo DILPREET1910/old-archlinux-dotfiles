@@ -12,5 +12,6 @@ end)
 require("ibl").setup({
 	scope = {
 		show_start = false, -- disable horizontal underline
+    char = "|";
 	},
 })
