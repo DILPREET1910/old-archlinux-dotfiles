@@ -102,8 +102,13 @@ return require("packer").startup(function(use)
 		"goolord/alpha-nvim",
 	})
 
-  -- nvim tmux navigator
-  use({
-    'christoomey/vim-tmux-navigator'
-  })
+	-- nvim tmux navigator
+	use({
+		"christoomey/vim-tmux-navigator",
+	})
+
+	-- indentation lines
+	use({
+		"lukas-reineke/indent-blankline.nvim",
+	})
 end)
