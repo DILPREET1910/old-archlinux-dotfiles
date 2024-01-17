@@ -65,8 +65,7 @@ static const char unknown_str[] = "n/a";
  */
 static const struct arg args[] = {
 	/* function format          argument */
-	{ datetime, "[ %s ]",           "%a, %d %b %r" },
-	{cpu_perc,"   [ CPU:%s%% ]",NULL},
+	{cpu_perc," [ CPU:%s%% ]",NULL},
 	{ram_used,"   [ RAM:%s/",NULL},
 	{ram_total,"%s ]",NULL},
 	{disk_used,"   [ DISK:%s/","/home"},
@@ -75,4 +74,5 @@ static const struct arg args[] = {
 	{run_command,"   [ MIC:%s ]","awk -F\"[][]\" '/Left:/ { print $4 }' <(amixer sget Capture)"},
 	{battery_perc,"   [ BAT:%s%% ","BAT0"},
 	{battery_state,"%s ]","BAT0"},
+	{ datetime, "   [ %s ]",           "%a, %d %b %r" },
 };
