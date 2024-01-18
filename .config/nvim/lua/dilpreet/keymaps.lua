@@ -13,3 +13,8 @@ vim.keymap.set("n", "yy", '"+yy') -- yank to system clipboard
 -- Insert Mode keybinds
 --##############################
 vim.keymap.set("i", "jj", "<ESC>", { silent = true })
+
+--##############################
+-- Visual Mode keybinds
+--##############################
+vim.keymap.set("v", "y", '"+y') -- yank to system clipboard
