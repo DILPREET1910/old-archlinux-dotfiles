@@ -111,4 +111,9 @@ return require("packer").startup(function(use)
 	use({
 		"lukas-reineke/indent-blankline.nvim",
 	})
+
+	-- autopairs -> autocomplete brackets and quotes
+	use({
+		"windwp/nvim-autopairs",
+	})
 end)
