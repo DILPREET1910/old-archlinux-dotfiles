@@ -112,8 +112,9 @@ return require("packer").startup(function(use)
 		"lukas-reineke/indent-blankline.nvim",
 	})
 
-	-- autopairs -> autocomplete brackets and quotes
+	-- autopairs -> autocomplete brackets, quotes and html tags
 	use({
 		"windwp/nvim-autopairs",
+		"windwp/nvim-ts-autotag",
 	})
 end)
