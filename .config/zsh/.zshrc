@@ -137,7 +137,10 @@ fi
 #######################################################
 source /home/dilpreet/.config/zsh/plugins/wakatime-zsh-plugin/wakatime.plugin.zsh
 source /home/dilpreet/.config/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh # syntax highlighting; *should be at the last line of .zshrc*
-source /home/dilpreet/.config/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh # autosuggestions
+
+# Autosuggestions
+source /home/dilpreet/.config/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh 
+bindkey '^ ' autosuggest-accept # bind ctrl space to auto complete
 
 #######################################################
 # PATH:
