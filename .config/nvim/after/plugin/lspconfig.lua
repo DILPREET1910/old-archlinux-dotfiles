@@ -73,3 +73,9 @@ require("lspconfig").tsserver.setup({
 	on_attach = on_attach,
 	capabilities = capabilites,
 })
+
+-- bash
+require("lspconfig").bashls.setup({
+	on_attach = on_attach,
+	capabilities = capabilites,
+})
