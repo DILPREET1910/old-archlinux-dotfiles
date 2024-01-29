@@ -135,11 +135,11 @@ fi
 #######################################################
 # PLUGINS:
 #######################################################
-source /home/dilpreet/.config/zsh/plugins/wakatime-zsh-plugin/wakatime.plugin.zsh
-source /home/dilpreet/.config/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh # syntax highlighting; *should be at the last line of .zshrc*
+source ~/.config/zsh/plugins/wakatime-zsh-plugin/wakatime.plugin.zsh
+source ~/.config/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh # syntax highlighting; *should be at the last line of .zshrc*
 
 # Autosuggestions
-source /home/dilpreet/.config/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh 
+source ~/.config/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh 
 bindkey '^ ' autosuggest-accept # bind ctrl space to auto complete
 
 #######################################################
