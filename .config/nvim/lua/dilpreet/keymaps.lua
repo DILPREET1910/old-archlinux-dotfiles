@@ -8,6 +8,7 @@ vim.keymap.set("n", "<leader>pv", vim.cmd.Ex) -- go back to previous Explorer (i
 vim.keymap.set("n", "<leader>h", ":nohlsearch<CR>") -- clear search
 vim.keymap.set("n", "y", '"+y') -- yank to system clipboard
 vim.keymap.set("n", "yy", '"+yy') -- yank to system clipboard
+vim.keymap.set("n", "<leader>q", "@q") -- execute macro
 
 --##############################
 -- Insert Mode keybinds
