@@ -118,9 +118,11 @@ alias svim='sudo -E nvim' # open nvim in sudo mode with all nvim configs
 #######################################################
 # EXPORT'S
 #######################################################
-# Chrome executable for flutter SDK:
-export CHROME_EXECUTABLE=/usr/bin/brave
+export CHROME_EXECUTABLE=/usr/bin/brave # Chrome executable for flutter SDK:
 
+# JVM gray window, not opening in full screen, menu closing
+export _JAVA_AWT_WM_NONREPARENTING=1
+export AWT_TOOLKIT=MToolkit 
 
 #######################################################
 # color support commands:
