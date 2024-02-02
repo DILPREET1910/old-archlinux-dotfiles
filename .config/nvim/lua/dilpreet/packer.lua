@@ -117,4 +117,9 @@ return require("packer").startup(function(use)
 		"windwp/nvim-autopairs",
 		"windwp/nvim-ts-autotag",
 	})
+
+	-- bufferline
+	use({
+		"akinsho/bufferline.nvim",
+	})
 end)
