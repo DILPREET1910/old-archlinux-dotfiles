@@ -49,3 +49,7 @@ ctrl + shift + KP_Next
   xdotool keyup KP_Next && xdotool key Next
 ctrl + shift + KP_Home
   xdotool keyup KP_Home && xdotool key Home
+
+# open nautilus
+super + e
+  nautilus
