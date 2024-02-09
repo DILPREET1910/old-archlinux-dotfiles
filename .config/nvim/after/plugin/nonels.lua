@@ -6,7 +6,9 @@ null_ls.setup({
 		null_ls.builtins.formatting.prettier,
 		null_ls.builtins.diagnostics.eslint, -- javascript and typescript linter
 		null_ls.builtins.diagnostics.shellcheck, -- bash script linter
-		null_ls.builtins.diagnostics.checkstyle, -- java linter (check style)
+		null_ls.builtins.diagnostics.checkstyle.with({
+			extra_args = { "-c", "/google_checks.xml" },
+		}), -- java linter (check style)
 	},
 })
 
