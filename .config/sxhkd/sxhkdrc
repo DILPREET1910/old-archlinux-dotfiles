@@ -53,3 +53,11 @@ ctrl + shift + KP_Home
 # open nautilus
 super + e
   nautilus
+
+# dmenu bookmark
+super + i
+  ~/Documents/MyPrograms/Scripts/dmenu-bookmark/bookmark
+super + b
+  ~/Documents/MyPrograms/Scripts/dmenu-bookmark/add-bookmark
+super + B
+  sleep 0.1 && xdotool keyup shift && sleep 0.1 && xdotool key alt+shift+return && sleep 0.1 && xdotool type "nvim ~/Documents/MyPrograms/Scripts/dmenu-bookmark/.cache/bookmarks" && sleep 0.1 && xdotool key return
