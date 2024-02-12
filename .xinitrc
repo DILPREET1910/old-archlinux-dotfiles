@@ -23,4 +23,4 @@ sxhkd &
 slstatus &
 
 # start dwm
-exec dwm
+exec ~/Documents/MyPrograms/Scripts/bin/startdwm
