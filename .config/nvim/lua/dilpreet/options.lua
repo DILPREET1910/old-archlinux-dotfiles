@@ -22,3 +22,6 @@ vim.opt.splitright = true
 
 -- enable sign column to prevent the screen from jumping
 vim.opt.signcolumn = "yes"
+
+-- enable cursor line highlight
+vim.opt.cursorline = true
