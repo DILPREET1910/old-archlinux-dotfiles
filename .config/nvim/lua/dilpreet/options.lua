@@ -25,3 +25,6 @@ vim.opt.signcolumn = "yes"
 
 -- enable cursor line highlight
 vim.opt.cursorline = true
+
+-- always keep 8 line above and below course unless at start/end of file
+vim.opt.scrolloff = 8
