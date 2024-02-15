@@ -19,3 +19,6 @@ vim.opt.smartcase = true
 -- better splitting
 vim.opt.splitbelow = true
 vim.opt.splitright = true
+
+-- enable sign column to prevent the screen from jumping
+vim.opt.signcolumn = "yes"
