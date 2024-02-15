@@ -15,3 +15,7 @@ vim.opt.smartindent = true
 -- search
 vim.opt.ignorecase = true
 vim.opt.smartcase = true
+
+-- better splitting
+vim.opt.splitbelow = true
+vim.opt.splitright = true
