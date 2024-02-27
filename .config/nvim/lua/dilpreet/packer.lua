@@ -122,4 +122,9 @@ return require("packer").startup(function(use)
 	use({
 		"akinsho/bufferline.nvim",
 	})
+
+	-- copilot
+	use({
+		"github/copilot.vim",
+	})
 end)
