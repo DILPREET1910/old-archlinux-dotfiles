@@ -150,3 +150,5 @@ bindkey '^ ' autosuggest-accept # bind ctrl space to auto complete
 export PATH=$PATH:/home/dilpreet/.spicetify # spicetify
 export PATH=$PATH:/usr/lib/rstudio # rstudio
 export PATH=$PATH:/home/dilpreet/.pub-cache/bin/ # flutter fire
+export PATH=$PATH:$HOME/Android/Sdk/platform-tools # android adb
+export PATH=$PATH:$HOME/Android/Sdk/emulator # android emulator
