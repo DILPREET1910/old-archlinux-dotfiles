@@ -14,6 +14,7 @@ local on_attach = function(_, _)
 	vim.keymap.set("n", "K", vim.lsp.buf.hover, {}) -- documentation
 	vim.keymap.set("n", "<leader>de", ":lua vim.diagnostic.open_float()<CR>", {}) -- show diagnostics error
 	vim.keymap.set("n", "<leader>dn", ":lua vim.diagnostic.goto_next()<CR>", {}) -- jump to next diagnostic error
+	vim.keymap.set("n", "<leader>dp", ":lua vim.diagnostic.goto_prev()<CR>", {}) -- jump to previous diagnostic error
 end
 
 local capabilites = require("cmp_nvim_lsp").default_capabilities()
