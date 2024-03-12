@@ -141,4 +141,8 @@ return require("packer").startup(function(use)
     "kawre/leetcode.nvim",
     run = ":TSUpdate html",
   })
+
+  use({
+    "xiyaowong/transparent.nvim",
+  })
 end)
