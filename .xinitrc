@@ -22,5 +22,8 @@ sxhkd &
 # dwm status bar
 slstatus &
 
+# flameshot
+flameshot &
+
 # start dwm
 exec ~/Documents/MyPrograms/Scripts/bin/startdwm
