@@ -87,3 +87,9 @@ require("lspconfig").pyright.setup({
 	on_attach = on_attach,
 	capabilities = capabilites,
 })
+
+-- go
+require("lspconfig").gopls.setup({
+	on_attach = on_attach,
+	capabilities = capabilites,
+})
