@@ -28,9 +28,11 @@ super + l
 super +v 
 	clipmenu
 
-# gnome screenshot
+# screenshot
 Print
   gnome-screenshot --interactive
+ctrl + Print
+  flameshot gui
 
 # brave
 super + w
