@@ -31,3 +31,7 @@ vim.opt.scrolloff = 8
 
 -- do not comment the next line
 vim.opt.formatoptions:remove({ "r", "o" })
+
+-- persistent undo
+vim.opt.undodir = "/home/dilpreet/.config/nvim/.undodir"
+vim.opt.undofile = true
