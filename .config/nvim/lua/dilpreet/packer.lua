@@ -151,4 +151,9 @@ return require("packer").startup(function(use)
 	use({
 		"mfussenegger/nvim-jdtls",
 	})
+
+	-- undo tree
+	use({
+		"mbbill/undotree",
+	})
 end)
