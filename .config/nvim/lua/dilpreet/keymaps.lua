@@ -14,6 +14,11 @@ vim.keymap.set("n", "<leader>sv", ":vs<CR>") -- vertical split
 vim.keymap.set("n", "<leader>sh", ":sp<CR>") -- horizontal split
 vim.keymap.set("n", "<leader>nd", ":NoiceDismiss<CR>") -- dismiss notification
 
+-- neovim leetcode
+vim.keymap.set("n", "<leader>lt", ":Leet test<CR>")
+vim.keymap.set("n", "<leader>lr", ":Leet run<CR>")
+vim.keymap.set("n", "<leader>ls", ":Leet submit<CR>")
+
 --##############################
 -- Insert Mode keybinds
 --##############################
